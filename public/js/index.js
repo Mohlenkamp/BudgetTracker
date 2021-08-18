@@ -136,6 +136,7 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
+    console.log("Fetch failure --> Using IndexDB backup. Error: " + err);
     saveRecord(transaction);
 
     // clear form
