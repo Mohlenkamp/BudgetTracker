@@ -1,3 +1,5 @@
+// Reminder to check new docs: https://www.npmjs.com/package/idb#installation
+
 // create variable to hold db connection
 let db;
 // establish a connection to IndexedDB database called 'budgetTracker_IDB' and set it to version 1
