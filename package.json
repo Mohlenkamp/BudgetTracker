@@ -28,7 +28,5 @@
     "morgan": "^1.9.1"
   },
   "keywords": [],
-  "devDependencies": {
-    "webpack-cli": "^4.8.0"
-  }
+  "devDependencies": {}
 }
