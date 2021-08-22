@@ -76,7 +76,7 @@ getAll.onsuccess = function() {
           // clear all items in your store
           tallyObjectStore.clear();
 
-          alert('All saved deposits and expenses have been submitted!');
+          alert('All offline deposits/expenses have been updated. Thank you.');
         })
         .catch(err => {
           console.log(err);

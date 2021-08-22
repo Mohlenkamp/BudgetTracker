@@ -147,8 +147,10 @@ function sendTransaction(isAdding) {
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
+  window.alert('You just added a deposit');
 };
 
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
+  window.alert('You just added an expense');
 };
